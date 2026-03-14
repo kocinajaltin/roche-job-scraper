@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import pandas as pd
-from Roche_scrapper import roche_scrape
+from Roche_scraper import roche_scrape
 
 # ---------- RUN SCRAPER ----------
 keywords = ["scientist"]#, "data"]
